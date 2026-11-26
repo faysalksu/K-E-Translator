@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 320px;
+  background: #f6f8fc;
+  color: #172033;
+  font:
+    14px Arial,
+    sans-serif;
+}
+main {
+  padding: 18px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 18px;
+}
+.mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: #173b67;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 17px;
+  margin: 0 0 4px;
+}
+p {
+  margin: 0;
+}
+.brand p,
+.hint,
+.foot {
+  color: #68758a;
+  font-size: 11px;
+}
+.primary,
+.secondary,
+.small {
+  width: 100%;
+  border: 0;
+  border-radius: 9px;
+  padding: 11px;
+  margin: 5px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.primary {
+  background: #1769d2;
+  color: white;
+}
+.secondary {
+  background: white;
+  color: #23334d;
+  border: 1px solid #dce3ed;
+}
+.small {
+  background: #e7eef8;
+  color: #173b67;
+}
+.small:hover {
+  background: #b7d4fd;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+.status {
+  background: #eaf0f8;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  min-height: 38px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+details {
+  margin-top: 16px;
+  border-top: 1px solid #e0e6ef;
+  padding-top: 12px;
+}
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 5px;
+}
+input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccd6e4;
+  border-radius: 7px;
+}
+.hint {
+  line-height: 1.45;
+  margin: 7px 0;
+}
+.foot {
+  line-height: 1.45;
+  margin-top: 14px;
+}
+
+.developers {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  font-size: 10px;
+  line-height: 1.5;
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px solid #e0e6ef;
+}
+.developers a strong {
+  display: block;
+  color: rgb(16, 51, 112);
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  margin-top: 3px;
+}
+.developers a {
+  text-decoration: none;
+}
